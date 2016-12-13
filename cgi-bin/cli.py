@@ -20,11 +20,6 @@
 #   - Updated Copyright notice
 #   - Extract setting_server from the response via regex
 #   - PEP8 compliance
-print 'Content-type: text/html'
-print 
-import cgitb
-cgitb.enable()
-import cgi
 
 import cmd
 import rlcompleter
@@ -64,8 +59,8 @@ error_map = {
 }
 
 defaults = {
-    "username": "comunic",
-    "password": "KkN9rRjh",
+    "username": "",
+    "password": "",
     "url": "",
     "savelocals": 0,
 }
