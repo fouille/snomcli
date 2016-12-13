@@ -22,6 +22,9 @@
 #   - PEP8 compliance
 print 'Content-type: text/html'
 print 
+import cgitb
+cgitb.enable()
+import cgi
 
 import cmd
 import rlcompleter
@@ -592,7 +595,7 @@ if __name__ == "__main__":
     defaults["username"] = username
     defaults["password"] = password
 
-    command = None
+    command = list all
 
     server = make_rpc_conn(username, password)
 
@@ -604,3 +607,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\nGot keyboard interrupt. Exiting...")
         sys.exit(0)
+        
