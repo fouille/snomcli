@@ -595,7 +595,7 @@ if __name__ == "__main__":
     defaults["username"] = username
     defaults["password"] = password
 
-    command = list all
+    command = None
 
     server = make_rpc_conn(username, password)
 
