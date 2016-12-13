@@ -64,8 +64,8 @@ error_map = {
 }
 
 defaults = {
-    "username": "comunic",
-    "password": "KkN9rRjh",
+    "username": "",
+    "password": "",
     "url": "",
     "savelocals": 0,
 }
@@ -556,3 +556,9 @@ class RedirectionCli(cmd.Cmd):
                 continue
             ret.append(d)
 return ret
+
+# INTERFACE WEB
+
+if __name__ == "__main__":
+    load_defaults()
+    banner = """test interface"""
