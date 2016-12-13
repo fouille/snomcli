@@ -20,6 +20,8 @@
 #   - Updated Copyright notice
 #   - Extract setting_server from the response via regex
 #   - PEP8 compliance
+print 'Content-type: text/html'
+print 
 
 import cmd
 import rlcompleter
