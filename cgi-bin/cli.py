@@ -557,7 +557,7 @@ if __name__ == "__main__":
     load_defaults()
     banner = """#######################################
 # Snom Redirection Server Console     #
-# (c) 2010-2016 snom technology AG    #
+#                COMUNIC              #
 #######################################"""
 
     if not defaults["username"]:
